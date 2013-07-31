@@ -1,0 +1,12 @@
+{
+  "name": "simple-pagination",
+  "version": "0.0.1",
+  "main": "lib/pagination.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
