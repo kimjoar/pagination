@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node_modules/.bin/karma start karma.conf.js --single-run"
   },
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/kjbekkelund/pagination.git"
+  },
   "author": "Kim Joar Bekkelund",
   "license": "MIT",
   "devDependencies": {
