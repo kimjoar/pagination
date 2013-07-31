@@ -1,0 +1,26 @@
+{
+  "name": "pagination",
+  "version": "0.0.1",
+  "description": "Create an array of pages for pagination",
+  "main": "lib/pagination.js",
+  "scripts": {
+    "test": "node_modules/.bin/karma start karma.conf.js --single-run"
+  },
+  "repository": "",
+  "author": "Kim Joar Bekkelund",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "~0.9.6",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-karma": "~0.5.0",
+    "karma-script-launcher": "~0.0.2",
+    "karma-chrome-launcher": "~0.0.2",
+    "karma-firefox-launcher": "~0.0.3",
+    "karma-html2js-preprocessor": "~0.0.2",
+    "karma-jasmine": "~0.0.3",
+    "karma-phantomjs-launcher": "~0.0.2",
+    "karma-mocha": "~0.0.4",
+    "chai": "~1.7.2"
+  }
+}
