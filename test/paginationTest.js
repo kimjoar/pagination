@@ -34,4 +34,9 @@ describe('pagination', function() {
         expect(pages.length).to.eql(100);
     });
 
+    it('only displays the number of visible links, if specified', function() {
+        var pages = pagination({ total: 1000, rows: 10, visible: 5 });
+        expect(pages.length).to.eql(5);
+    });
+
 });
