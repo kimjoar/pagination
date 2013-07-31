@@ -2,6 +2,9 @@ pagination
 ==========
 
 ```javascript
-var pages = pagination(25, 10);
+var numberOfHits = 25;
+var perPage = 10;
+
+var pages = pagination(numberOfHits, perPage);
 // pages = [1, 2, 3]
 ```
