@@ -1,6 +1,6 @@
 {
   "name": "simple-pagination",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an array of pages for pagination",
   "main": "lib/pagination.js",
   "scripts": {

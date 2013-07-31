@@ -36,7 +36,17 @@ describe('pagination', function() {
 
     it('only displays the number of visible links, if specified', function() {
         var pages = pagination({ total: 1000, rows: 10, visible: 5 });
-        expect(pages.length).to.eql(5);
+        expect(pages).to.eql([1,2,3]);
+    });
+
+    it('only displays the number of visible links for a given page, if specified', function() {
+        var pages = pagination({ total: 1000, rows: 10, visible: 5, page: 3 });
+        expect(pages).to.eql([1,2,3,4,5]);
+    });
+
+    it('only displays the number of visible links for a given page, if specified', function() {
+        var pages = pagination({ total: 1000, rows: 10, visible: 5, page: 15 });
+        expect(pages).to.eql([13,14,15,16,17]);
     });
 
 });
